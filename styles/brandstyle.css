@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding:0;
+}
+header {
+    height: 400px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.74);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.img {
+   object-fit: cover;
+   opacity: 0.4;
+}
+.centered {
+    color: white;    
+    font-weight: 500;
+    font-size: 60px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -10,3 +10,14 @@ function spark (){
     setTimeout(()=>{document.getElementById("spark2").style.color="#28a745"},1000);
     setTimeout(()=>{document.getElementById("spark2").style.backgroundColor="transparent"},1000);
 }
+var i = 0;
+var txt = 'Find Your Creator...';
+var speed = 100;
+function typing(){
+    if (i < txt.length) {
+        document.getElementById("centered").innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typing, speed);
+    } 
+   
+}
