@@ -11,6 +11,10 @@ header {
     background-attachment: fixed;
     background-size: cover;
 }
+nav{
+    overflow-y: hidden;
+    position: fixed;
+}
 .img {
    object-fit: cover;
    opacity: 0.4;
@@ -27,21 +31,23 @@ header {
 .svg{
     width: 50px;
     height: 50px;
-    position: absolute;
-    top: 60%;
+    position: relative;
     left: 50%;
-    transform: translate(-50%, -50%);
-    animation: updown 2s linear  infinite alternate;
+    transform: translate(-50%, -250%);
+    animation: updown 1.3s linear infinite alternate;
 }
 @keyframes updown{
     0%{top: 0px;}
-    25%{top:1px}
-    50%{top: 2px;}
-    75%{top: 1px;}
+    25%{top:20px}
+    50%{top: 40px;}
+    75%{top: 20px;}
     100%{top:0px;}
 }
+#card-head{
+    margin-top: 5rem;
+}
 #card{
-    margin: 3rem;
+    margin-top: 4rem;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -54,4 +60,8 @@ header {
 }
 .card-text{
     text-align: start;
+}
+.dropdown{
+    margin-top:10px;
+    float: right;
 }
