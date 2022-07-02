@@ -52,8 +52,14 @@ nav{
     align-items: center;
     justify-content: space-evenly;
 }
+.card{
+    transition: transform,box-shadow,0.75s;
+}
 .card:hover{
-    box-shadow: 2px solid grey;
+    transform: scale(1.1);
+    box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.4);
+    z-index: 2;
+    border-color: lightgray; 
 }
 .card-body{
     text-align: center;
