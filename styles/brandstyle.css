@@ -61,7 +61,17 @@ nav{
 .card-text{
     text-align: start;
 }
-.dropdown{
-    margin-top:10px;
-    float: right;
+#dropdownMenuButton2{
+    background-color: lightgray;
+    color: black;
+}
+#search{
+    width: 400px;
+    height: 50px;
+}
+.dropsearch{
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }

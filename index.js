@@ -21,3 +21,17 @@ function typing(){
     } 
    
 }
+var i = 0;
+var txt = 'Choose the Brand...';
+var speed = 100;
+function typing2(){
+    if (i < txt.length) {
+        document.getElementById("centered").innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typing, speed);
+    } 
+   
+}
+function showmore(){
+    
+}
