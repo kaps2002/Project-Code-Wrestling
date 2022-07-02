@@ -11,10 +11,6 @@ header {
     background-attachment: fixed;
     background-size: cover;
 }
-nav{
-    overflow-y: hidden;
-    position: fixed;
-}
 .img {
    object-fit: cover;
    opacity: 0.4;
@@ -75,7 +71,7 @@ nav{
     align-items: center;
     justify-content: space-between;
 }
-.abcd{
+#abcd{
     margin-top: 4rem;
     display: none;
     align-items: center;
