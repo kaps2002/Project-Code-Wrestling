@@ -21,14 +21,14 @@ function typing(){
     } 
    
 }
-var i = 0;
-var txt = 'Choose Your Brand...';
-var speed = 100;
-function typing2(){
-    if (i < txt.length) {
-        document.getElementById("centered").innerHTML += txt.charAt(i);
-        i++;
-        setTimeout(typing, speed);
+var j = 0;
+var t = 'Choose Your Brand...';
+var s = 100;
+function typ(){
+    if (j < t.length) {
+        document.getElementById("centered").innerHTML += t.charAt(j);
+        j++;
+        setTimeout(typ, s);
     } 
    
 }

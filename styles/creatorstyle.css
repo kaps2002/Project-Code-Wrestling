@@ -18,7 +18,7 @@ header {
 .centered {
     color: white;    
     font-weight: 500;
-    font-size: 60px;
+    font-size: 5vw;
     position: absolute;
     top: 40%;
     left: 50%;
@@ -65,23 +65,24 @@ header {
 .card-text{
     text-align: start;
 }
-#dropdownMenuButton2{
-    background-color: lightgray;
-    color: black;
-}
-#search{
-    width: 400px;
-    height: 50px;
-}
-.dropsearch{
-    margin: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+
 #abcd{
     margin-top: 4rem;
     display: none;
     align-items: center;
     justify-content: space-evenly;
+}
+@media only screen and (max-width: 768px){
+    [id*="card"]{
+        display: flex;
+        flex-direction: column;
+    }
+    [class*="resp"]{
+        margin: 1.5rem;
+    }
+    [id*="abcd"]{
+        display: flex;
+        flex-direction: column;
+    }
+    
 }
