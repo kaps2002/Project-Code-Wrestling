@@ -84,5 +84,7 @@ header {
         display: flex;
         flex-direction: column;
     }
-    
+    [id*="brand"]{
+        margin-left: -70%;
+    }
 }
