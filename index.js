@@ -62,3 +62,9 @@ function showmore(){
         // a.style.justifyContent="space-evenly";
     }
 }
+function explore(){
+    let cname=document.getElementById("cname").value;
+    let cprofile=document.getElementById("cprofile").value;
+    let desc=document.getElementById("desc").value ;
+    
+}

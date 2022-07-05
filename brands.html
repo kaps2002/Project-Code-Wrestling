@@ -30,7 +30,7 @@
                     </ul>
                     <div  class="d-grid gap-3 d-md-flex justify-content-md-end">
                     <a href="creator.html" target="_blank"><button class="btn btn-outline-success" type="submit">For Creators</button></a>
-                    <a href="#" ><button class="btn btn-outline-success" type="submit">Post a Ad</button></a>
+                    <a href="#h1"/><button class="btn btn-outline-success" type="submit">Post a Ad</button></a>
                     </div>
                 </div>
             </div>
@@ -142,21 +142,21 @@
             
         </div>
         </div>
-        <h1 style="text-align: center; margin:2% 0; font-size:4vw;" class="h1">Post a Ad</h1>
-        <div class="forms">
+        <h1 style="text-align: center; margin:3rem 0; font-size:5vw; color: #077420;" class="h1" >Post a Ad</h1>
+        <div class="forms" id="h1">
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Company's Name</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name" id="cname">
               </div>
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Profile</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Profile">
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Profile" id="cprofile">
               </div>
             <div class="mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label">Description</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Write a Description..." id="desc"></textarea>
             </div>
-            <button class="btn btn-success" type="submit">Submit</button>
+            <button class="btn btn-success" type="submit" onclick="explore()">Submit</button>
         </div>
 
     </div>

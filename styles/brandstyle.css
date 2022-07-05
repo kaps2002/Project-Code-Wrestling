@@ -78,8 +78,8 @@ nav{
 .forms{
     align-items: center;
     justify-items: center;
-    margin: 30px 20% 30px 20%;
-    background: rgba(227, 227, 227, 0.188);
+    margin: 30px 20% 40px 20%;
+    background: rgba(236, 236, 236, 0.238);
     padding: 15px;
     border-radius: 15px;
     transition: 1s;
