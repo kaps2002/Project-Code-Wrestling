@@ -143,7 +143,7 @@
         </div>
         </div>
         <h1 style="text-align: center; margin:3rem 0; font-size:5vw; color: #077420;" class="h1" >Post a Ad</h1>
-        <div class="forms" id="h1">
+        <form class="forms" id="h1" method="get" >
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Company's Name</label>
                 <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name" id="cname">
@@ -156,11 +156,11 @@
                 <label for="exampleFormControlTextarea1" class="form-label">Description</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Write a Description..." id="desc"></textarea>
             </div>
-            <button class="btn btn-success" type="submit" onclick="explore()">Submit</button>
-        </div>
+            <button class="btn btn-success" type="submit">Submit</button>
+        </form>
 
     </div>
-    <script src="index.js"></script>
+    <script src="index.js" async></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
 </body>
